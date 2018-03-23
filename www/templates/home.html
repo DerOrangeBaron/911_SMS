@@ -1,0 +1,40 @@
+<ion-view title="NineEleven" style="background-color:#002;">
+  <ion-header-bar  class="bar-header" style="background-color:#002;" ng-click="resetData()">
+    <h1 class="title">NineEleven</h1>
+  </ion-header-bar>
+  <ion-content  scroll="false" ng-controller="HomeController">
+    <div class="row row-33">
+      <div class="col col-50 containers" style="background-color:#003;" ng-click="getLocation('Violencia')">
+        <img ng-src="img/violencia.png" class="violencia"/>
+        <h3 style="color:#fff;">Violencia Domestica</h3>
+      </div>
+      <div class="col col-50 containers" style="background-color:#225;" ng-click="getLocation('Policia')">
+        <img ng-src="img/policia.png" class="images"/>
+        <h3 style="color:#fff;">Policia</h3>
+      </div>
+    </div>
+    <div class="row row-33">
+      <div class="col col-50 containers" style="background-color:#225;" ng-click="getLocation('Bombero')">
+        <img ng-src="img/bombero.png" class="images"/>
+        <h3 style="color:#fff;">Bomberos</h3>
+      </div>
+      <div class="col col-50 containers" style="background-color:#003;" ng-click="getLocation('Ambulancia')">
+      <img ng-src="img/ambulancia.png" class="images"/>
+      <h3 style="color:#fff;">Ambulancia</h3>
+      </div>
+    </div>
+    <div class="row row-33">
+      <div class="col col-50 containers" style="background-color:#003;" ng-click="getLocation('Secuestro')">
+        <img ng-src="img/secuestro.png" class="images"/>
+        <h3 style="color:#fff;">Secuestro</h3>
+      </div>
+      <div class="col col-50 containers" style="background-color:#225;" ng-click="getLocation('Accidente')">
+        <img ng-src="img/accidente.png" class="images"/>
+        <h3 style="color:#fff;">Accidente</h3>
+      </div>
+    </div>
+
+  </ion-content>
+
+
+</ion-view>

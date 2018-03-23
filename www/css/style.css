@@ -1,0 +1,181 @@
+.row-33 {height: 33%;}
+
+.bar-header .title {color: #AACCFF; }
+
+.containers{
+  height:100%;
+  text-align: center;
+}
+
+.containers h3{
+  font-size 80%;
+  margin-top: -5px !important;
+}
+
+.images{
+  height: 80%;
+}
+.violencia{
+  height: 62% !important;
+}
+
+
+
+
+ /*SKING*/
+
+.screens_background_color {background-color: #222288 ; }
+.screens_header_color {color : #000066 ; }
+.lists_background_color { background-color: #000066 ; }
+
+.bar.bar-header {
+  background: #000066;
+  border: none;
+}
+.bar.bar-header.transparent {
+  background-color: transparent;
+  z-index: 999999;
+}
+.bar.bar-header .h1.title {
+  color: #AACCFF;
+}
+
+.bar .button.button-clear .icon:before,
+.bar .button.button-clear.icon:before,
+.bar .button.button-clear.icon-left:before,
+.bar .button.button-clear.icon-right:before {
+  font-size: 23px;
+  line-height: 33px;
+  color: #AACCFF;
+}
+
+ion-view.pane,
+ion-nav-view .pane {
+  background-color: #222288;
+  color: #AACCFF;
+}
+
+ion-content {
+  padding: 15px;
+  }
+  ion-content p.text {
+    margin: 80px 40px 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    }
+
+.tabs-content ion-content.scroll-content {
+  padding: 10px;
+  }
+
+  .button-actions {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  }
+.button {
+  min-height: 55px;
+  border-radius: 13px;
+  line-height: 20px;
+  margin-top: 10px;
+    }
+    .button:after {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  .button.button-positive,
+  .button.button-positive.activated {
+    background-color: #AACCFF;
+    color: #000066;
+    border: none;
+    }
+  .button.button-outline.button-positive,
+  .button.button-outline.button-positive.activated {
+    background-color: transparent;
+    color: #AACCFF;
+    border-color: #AACCFF;
+    border: 1px solid;
+    }
+  .button.button-positive:hover {
+    color: #000066;
+    text-decoration: none;
+  }
+  .button.button-outline.button-positive:hover {
+    border-color: #AACCFF;
+    color: #AACCFF;
+  }
+
+  .energized, a.energized {
+    color: #660000;
+    color: #DD0F00;
+    font-size: initial;
+  }
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="password"],
+input[type="month"] {
+  width: 100%;
+  display: block;
+  height: 40px;
+  margin-top: 40px;
+  color: #AACCFF;
+  border-bottom: 1px solid #AACCFF;
+  -webkit-appearance: none;
+  font-size: 18px;
+  line-height: 30px;
+  background: transparent;
+  box-sizing: border-box;
+  color: #AACCFF;
+  text-align: left;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="date"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="month"]::-webkit-input-placeholder {
+  color: #AACCFF;
+}
+
+.selector {
+  width: 100%;
+  display: block;
+  height: 50px;
+  color: black;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 40px;
+  color: #AACCFF;
+  border-bottom: 1px solid #AACCFF;
+  }
+  .selector select {
+    height: 100%;
+    -webkit-appearance: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    color: #AACCFF;
+    }
+
+.platform-android .tabs-content ion-content ion-list .list {
+  padding-top: 55px;
+}
+.platform-ios .tabs-content ion-content ion-list .list {
+  padding-bottom: 45px;
+}
+
+.button.button-dark.button-clear {
+  color: #AACCFF;
+}

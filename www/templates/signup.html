@@ -1,0 +1,27 @@
+<ion-view view-title="Datos Personales" id="signup_to_remove">
+    <ion-header-bar class="bar bar-header">
+        <div>
+            <div class="h1 title">Datos Personales</div>
+        </div>
+    </ion-header-bar>
+    <ion-content class="with-logo" scroll="true">
+        <form class="form-sign-up">
+            <input type="text" placeholder="Nombre" ng-model="signupData.name">
+            <input type="text" placeholder="Apellido" ng-model="signupData.lastName">
+            <div class="selector">
+                <select name="document_type" ng-model="signupData.idType" required  >
+                <option value="" Selected>Tipo de Documento</option>
+                <option value="Cedula">Cédula de identidad</option>
+                <option value="Pasaporte">Pasaporte</option>
+                </select>
+            </div>
+            <input type="text" placeholder="Numero de Documento" ng-model="signupData.idNumber">
+            <input type="text" placeholder="Teléfono" ng-model="signupData.phoneNumber">
+            <div class="col" align="center">
+                <button class="button button-positive col" ng-click="validate_signup_data()">Siguiente</button>
+            </div>
+        </form>
+        <div class="energized" ng-show="error.message" align="center">{{error.message}}</div>
+        <rp-logo-and-tc></rp-logo-and-tc>
+    </ion-content>
+</ion-view>
